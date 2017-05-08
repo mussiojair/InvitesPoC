@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">InvitesPoC</string>
+    <string name="invitation_title">Comparte esta promo</string>
+    <string name="invitation_msg">Hola Juan.\nPaga Todo tiene para ti nuevos servicios directamente en tu móvil. ¡No te lo pierdas!</string>
+    <string name="invitation_deeplink_welcome">https://ya42q.app.goo.gl/XktS</string>
+    <string name="invitation_deeplink_content">https://ya42q.app.goo.gl/?link=http://invitespoc.jaircardenas.com/welcome&amp;apn=com.example.mcardenas.invitespoc&amp;afl=http://invitespoc.jaircardenas.com/welcome</string>
+    <string name="invitation_cta">Enviar email o SMS</string>
+    <string name="title_activity_contenido_one">PagaTodo One</string>
+    <string name="title_activity_contenido_two">PagaTodo Two</string>
+
+    <string name="html_template">
+        <![CDATA[
+        <html>
+            <body>
+                <a href=\"%%APPINVITE_LINK_PLACEHOLDER%%\">XYZ Free Trial</a>
+            </body>
+        </html>
+        ]]>
+    </string>
+</resources>
